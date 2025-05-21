@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8fafc"/>
+  
+  <!-- Roads with proper intersection -->
+  <rect x="0" y="150" width="800" height="100" fill="#334155"/>
+  <rect x="350" y="0" width="100" height="400" fill="#334155"/>
+  
+  <!-- Road markings -->
+  <path d="M0 200 L800 200" stroke="#ffffff" strokeWidth="2" strokeDasharray="20,20"/>
+  <path d="M400 0 L400 400" stroke="#ffffff" strokeWidth="2" strokeDasharray="20,20"/>
+  
+  <!-- Traffic Lights (just before intersection, all on sides) -->
+  <!-- West approach - congested side -->
+  <rect x="310" y="155" width="15" height="35" fill="#475569"/>
+  <circle cx="317" cy="165" r="5" fill="#ef4444"/>
+  <circle cx="317" cy="180" r="5" fill="#22c55e"/>
+  
+  <!-- East approach -->
+  <rect x="475" y="210" width="15" height="35" fill="#475569"/>
+  <circle cx="482" cy="220" r="5" fill="#22c55e"/>
+  <circle cx="482" cy="235" r="5" fill="#ef4444"/>
+  
+  <!-- North approach (moved to side) -->
+  <rect x="355" y="130" width="35" height="15" fill="#475569"/>
+  <circle cx="365" cy="137" r="5" fill="#22c55e"/>
+  <circle cx="380" cy="137" r="5" fill="#ef4444"/>
+  
+  <!-- South approach (moved to side) -->
+  <rect x="410" y="255" width="35" height="15" fill="#475569"/>
+  <circle cx="420" cy="262" r="5" fill="#22c55e"/>
+  <circle cx="435" cy="262" r="5" fill="#ef4444"/>
+
+  <!-- Congested traffic from West -->
+  <rect x="160" y="170" width="30" height="20" rx="3" fill="#ef4444"/>
+  <rect x="200" y="170" width="30" height="20" rx="3" fill="#ef4444"/>
+  <rect x="240" y="170" width="30" height="20" rx="3" fill="#ef4444"/>
+  <rect x="280" y="170" width="30" height="20" rx="3" fill="#ef4444"/>
+  <rect x="120" y="170" width="30" height="20" rx="3" fill="#ef4444"/>
+  
+  <!-- Free flowing traffic from other directions -->
+  <!-- East -->
+  <rect x="570" y="210" width="30" height="20" rx="3" fill="#22c55e"/>
+  <rect x="520" y="210" width="30" height="20" rx="3" fill="#22c55e"/>
+  
+  <!-- North -->
+  <rect x="380" y="80" width="20" height="30" rx="3" fill="#22c55e"/>
+  
+  <!-- South -->
+  <rect x="380" y="290" width="20" height="30" rx="3" fill="#22c55e"/>
+  
+  <!-- Cars in intersection -->
+  <rect x="380" y="170" width="30" height="20" rx="3" fill="#ef4444" opacity="0.8"/>
+  <rect x="390" y="190" width="20" height="30" rx="3" fill="#22c55e" opacity="0.8"/>
+</svg>

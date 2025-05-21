@@ -1,0 +1,1442 @@
+[
+  {
+    "deviceId": "sensor-1",
+    "intersectionId": "int-1",
+    "location": {
+      "latitude": 40.8590785,
+      "longitude": -73.9314426,
+      "intersectionType": "medium",
+      "intersectionName": "Hillside Avenue & Broadway",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 23,
+      "peakQueue": 42,
+      "greenLightCycle": 42,
+      "redLightCycle": 55
+    }
+  },
+  {
+    "deviceId": "sensor-2",
+    "intersectionId": "int-1",
+    "location": {
+      "latitude": 40.8590785,
+      "longitude": -73.9314426,
+      "intersectionType": "medium",
+      "intersectionName": "Hillside Avenue & Broadway",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 28,
+      "peakQueue": 51,
+      "greenLightCycle": 51,
+      "redLightCycle": 68
+    }
+  },
+  {
+    "deviceId": "sensor-3",
+    "intersectionId": "int-1",
+    "location": {
+      "latitude": 40.8590785,
+      "longitude": -73.9314426,
+      "intersectionType": "medium",
+      "intersectionName": "Hillside Avenue & Broadway",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 24,
+      "peakQueue": 43,
+      "greenLightCycle": 43,
+      "redLightCycle": 57
+    }
+  },
+  {
+    "deviceId": "sensor-4",
+    "intersectionId": "int-1",
+    "location": {
+      "latitude": 40.8590785,
+      "longitude": -73.9314426,
+      "intersectionType": "medium",
+      "intersectionName": "Hillside Avenue & Broadway",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 39,
+      "greenLightCycle": 39,
+      "redLightCycle": 51
+    }
+  },
+  {
+    "deviceId": "sensor-5",
+    "intersectionId": "int-2",
+    "location": {
+      "latitude": 40.7916758,
+      "longitude": -73.964694,
+      "intersectionType": "major",
+      "intersectionName": "97th Street Transverse & West 96th Street",
+      "direction": "NORTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 43,
+      "peakQueue": 76,
+      "greenLightCycle": 65,
+      "redLightCycle": 87
+    }
+  },
+  {
+    "deviceId": "sensor-6",
+    "intersectionId": "int-2",
+    "location": {
+      "latitude": 40.7916758,
+      "longitude": -73.964694,
+      "intersectionType": "major",
+      "intersectionName": "97th Street Transverse & West 96th Street",
+      "direction": "SOUTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 41,
+      "peakQueue": 72,
+      "greenLightCycle": 62,
+      "redLightCycle": 82
+    }
+  },
+  {
+    "deviceId": "sensor-7",
+    "intersectionId": "int-2",
+    "location": {
+      "latitude": 40.7916758,
+      "longitude": -73.964694,
+      "intersectionType": "major",
+      "intersectionName": "97th Street Transverse & West 96th Street",
+      "direction": "EAST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 44,
+      "peakQueue": 78,
+      "greenLightCycle": 67,
+      "redLightCycle": 89
+    }
+  },
+  {
+    "deviceId": "sensor-8",
+    "intersectionId": "int-2",
+    "location": {
+      "latitude": 40.7916758,
+      "longitude": -73.964694,
+      "intersectionType": "major",
+      "intersectionName": "97th Street Transverse & West 96th Street",
+      "direction": "WEST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 41,
+      "peakQueue": 72,
+      "greenLightCycle": 62,
+      "redLightCycle": 83
+    }
+  },
+  {
+    "deviceId": "sensor-9",
+    "intersectionId": "int-3",
+    "location": {
+      "latitude": 40.7208548,
+      "longitude": -74.0006545,
+      "intersectionType": "major",
+      "intersectionName": "Broadway & Grand Street",
+      "direction": "NORTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 36,
+      "peakQueue": 64,
+      "greenLightCycle": 54,
+      "redLightCycle": 73
+    }
+  },
+  {
+    "deviceId": "sensor-10",
+    "intersectionId": "int-3",
+    "location": {
+      "latitude": 40.7208548,
+      "longitude": -74.0006545,
+      "intersectionType": "major",
+      "intersectionName": "Broadway & Grand Street",
+      "direction": "SOUTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 35,
+      "peakQueue": 61,
+      "greenLightCycle": 52,
+      "redLightCycle": 69
+    }
+  },
+  {
+    "deviceId": "sensor-11",
+    "intersectionId": "int-3",
+    "location": {
+      "latitude": 40.7208548,
+      "longitude": -74.0006545,
+      "intersectionType": "major",
+      "intersectionName": "Broadway & Grand Street",
+      "direction": "EAST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 36,
+      "peakQueue": 63,
+      "greenLightCycle": 54,
+      "redLightCycle": 72
+    }
+  },
+  {
+    "deviceId": "sensor-12",
+    "intersectionId": "int-3",
+    "location": {
+      "latitude": 40.7208548,
+      "longitude": -74.0006545,
+      "intersectionType": "major",
+      "intersectionName": "Broadway & Grand Street",
+      "direction": "WEST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 37,
+      "peakQueue": 65,
+      "greenLightCycle": 56,
+      "redLightCycle": 74
+    }
+  },
+  {
+    "deviceId": "sensor-13",
+    "intersectionId": "int-4",
+    "location": {
+      "latitude": 40.6243046,
+      "longitude": -74.0188662,
+      "intersectionType": "medium",
+      "intersectionName": "Fort Hamilton Parkway & 7th Avenue",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 44,
+      "greenLightCycle": 44,
+      "redLightCycle": 59
+    }
+  },
+  {
+    "deviceId": "sensor-14",
+    "intersectionId": "int-4",
+    "location": {
+      "latitude": 40.6243046,
+      "longitude": -74.0188662,
+      "intersectionType": "medium",
+      "intersectionName": "Fort Hamilton Parkway & 7th Avenue",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 39,
+      "greenLightCycle": 39,
+      "redLightCycle": 52
+    }
+  },
+  {
+    "deviceId": "sensor-15",
+    "intersectionId": "int-4",
+    "location": {
+      "latitude": 40.6243046,
+      "longitude": -74.0188662,
+      "intersectionType": "medium",
+      "intersectionName": "Fort Hamilton Parkway & 7th Avenue",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 40,
+      "greenLightCycle": 40,
+      "redLightCycle": 53
+    }
+  },
+  {
+    "deviceId": "sensor-16",
+    "intersectionId": "int-4",
+    "location": {
+      "latitude": 40.6243046,
+      "longitude": -74.0188662,
+      "intersectionType": "medium",
+      "intersectionName": "Fort Hamilton Parkway & 7th Avenue",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 39,
+      "greenLightCycle": 39,
+      "redLightCycle": 53
+    }
+  },
+  {
+    "deviceId": "sensor-17",
+    "intersectionId": "int-5",
+    "location": {
+      "latitude": 40.6795513,
+      "longitude": -73.8995376,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 40,
+      "greenLightCycle": 40,
+      "redLightCycle": 54
+    }
+  },
+  {
+    "deviceId": "sensor-18",
+    "intersectionId": "int-5",
+    "location": {
+      "latitude": 40.6795513,
+      "longitude": -73.8995376,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 39,
+      "greenLightCycle": 39,
+      "redLightCycle": 52
+    }
+  },
+  {
+    "deviceId": "sensor-19",
+    "intersectionId": "int-5",
+    "location": {
+      "latitude": 40.6795513,
+      "longitude": -73.8995376,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 23,
+      "peakQueue": 41,
+      "greenLightCycle": 41,
+      "redLightCycle": 55
+    }
+  },
+  {
+    "deviceId": "sensor-20",
+    "intersectionId": "int-5",
+    "location": {
+      "latitude": 40.6795513,
+      "longitude": -73.8995376,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 29,
+      "peakQueue": 53,
+      "greenLightCycle": 53,
+      "redLightCycle": 70
+    }
+  },
+  {
+    "deviceId": "sensor-21",
+    "intersectionId": "int-6",
+    "location": {
+      "latitude": 40.5817501,
+      "longitude": -73.9538342,
+      "intersectionType": "major",
+      "intersectionName": "Shore Boulevard & West End Avenue",
+      "direction": "NORTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 32,
+      "peakQueue": 57,
+      "greenLightCycle": 49,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-22",
+    "intersectionId": "int-6",
+    "location": {
+      "latitude": 40.5817501,
+      "longitude": -73.9538342,
+      "intersectionType": "major",
+      "intersectionName": "Shore Boulevard & West End Avenue",
+      "direction": "SOUTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 34,
+      "peakQueue": 60,
+      "greenLightCycle": 51,
+      "redLightCycle": 68
+    }
+  },
+  {
+    "deviceId": "sensor-23",
+    "intersectionId": "int-6",
+    "location": {
+      "latitude": 40.5817501,
+      "longitude": -73.9538342,
+      "intersectionType": "major",
+      "intersectionName": "Shore Boulevard & West End Avenue",
+      "direction": "EAST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 34,
+      "peakQueue": 60,
+      "greenLightCycle": 52,
+      "redLightCycle": 69
+    }
+  },
+  {
+    "deviceId": "sensor-24",
+    "intersectionId": "int-6",
+    "location": {
+      "latitude": 40.5817501,
+      "longitude": -73.9538342,
+      "intersectionType": "major",
+      "intersectionName": "Shore Boulevard & West End Avenue",
+      "direction": "WEST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 38,
+      "peakQueue": 67,
+      "greenLightCycle": 58,
+      "redLightCycle": 77
+    }
+  },
+  {
+    "deviceId": "sensor-25",
+    "intersectionId": "int-7",
+    "location": {
+      "latitude": 40.8300822,
+      "longitude": -73.85061,
+      "intersectionType": "medium",
+      "intersectionName": "Cross Bronx Expressway Service Road & Castle Hill Avenue",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 45,
+      "greenLightCycle": 45,
+      "redLightCycle": 60
+    }
+  },
+  {
+    "deviceId": "sensor-26",
+    "intersectionId": "int-7",
+    "location": {
+      "latitude": 40.8300822,
+      "longitude": -73.85061,
+      "intersectionType": "medium",
+      "intersectionName": "Cross Bronx Expressway Service Road & Castle Hill Avenue",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 29,
+      "peakQueue": 53,
+      "greenLightCycle": 53,
+      "redLightCycle": 70
+    }
+  },
+  {
+    "deviceId": "sensor-27",
+    "intersectionId": "int-7",
+    "location": {
+      "latitude": 40.8300822,
+      "longitude": -73.85061,
+      "intersectionType": "medium",
+      "intersectionName": "Cross Bronx Expressway Service Road & Castle Hill Avenue",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 39,
+      "greenLightCycle": 39,
+      "redLightCycle": 52
+    }
+  },
+  {
+    "deviceId": "sensor-28",
+    "intersectionId": "int-7",
+    "location": {
+      "latitude": 40.8300822,
+      "longitude": -73.85061,
+      "intersectionType": "medium",
+      "intersectionName": "Cross Bronx Expressway Service Road & Castle Hill Avenue",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 46,
+      "greenLightCycle": 46,
+      "redLightCycle": 61
+    }
+  },
+  {
+    "deviceId": "sensor-29",
+    "intersectionId": "int-8",
+    "location": {
+      "latitude": 40.9010563,
+      "longitude": -73.8616048,
+      "intersectionType": "major",
+      "intersectionName": "Nereid Avenue & Unknown Street",
+      "direction": "NORTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 38,
+      "peakQueue": 67,
+      "greenLightCycle": 57,
+      "redLightCycle": 76
+    }
+  },
+  {
+    "deviceId": "sensor-30",
+    "intersectionId": "int-8",
+    "location": {
+      "latitude": 40.9010563,
+      "longitude": -73.8616048,
+      "intersectionType": "major",
+      "intersectionName": "Nereid Avenue & Unknown Street",
+      "direction": "SOUTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 45,
+      "peakQueue": 78,
+      "greenLightCycle": 67,
+      "redLightCycle": 89
+    }
+  },
+  {
+    "deviceId": "sensor-31",
+    "intersectionId": "int-8",
+    "location": {
+      "latitude": 40.9010563,
+      "longitude": -73.8616048,
+      "intersectionType": "major",
+      "intersectionName": "Nereid Avenue & Unknown Street",
+      "direction": "EAST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 36,
+      "peakQueue": 63,
+      "greenLightCycle": 54,
+      "redLightCycle": 72
+    }
+  },
+  {
+    "deviceId": "sensor-32",
+    "intersectionId": "int-8",
+    "location": {
+      "latitude": 40.9010563,
+      "longitude": -73.8616048,
+      "intersectionType": "major",
+      "intersectionName": "Nereid Avenue & Unknown Street",
+      "direction": "WEST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 43,
+      "peakQueue": 75,
+      "greenLightCycle": 64,
+      "redLightCycle": 86
+    }
+  },
+  {
+    "deviceId": "sensor-33",
+    "intersectionId": "int-9",
+    "location": {
+      "latitude": 40.7386541,
+      "longitude": -73.8489213,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 23,
+      "peakQueue": 41,
+      "greenLightCycle": 41,
+      "redLightCycle": 54
+    }
+  },
+  {
+    "deviceId": "sensor-34",
+    "intersectionId": "int-9",
+    "location": {
+      "latitude": 40.7386541,
+      "longitude": -73.8489213,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 45,
+      "greenLightCycle": 45,
+      "redLightCycle": 61
+    }
+  },
+  {
+    "deviceId": "sensor-35",
+    "intersectionId": "int-9",
+    "location": {
+      "latitude": 40.7386541,
+      "longitude": -73.8489213,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 44,
+      "greenLightCycle": 44,
+      "redLightCycle": 59
+    }
+  },
+  {
+    "deviceId": "sensor-36",
+    "intersectionId": "int-9",
+    "location": {
+      "latitude": 40.7386541,
+      "longitude": -73.8489213,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 48,
+      "greenLightCycle": 48,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-37",
+    "intersectionId": "int-10",
+    "location": {
+      "latitude": 40.5681794,
+      "longitude": -73.8668894,
+      "intersectionType": "medium",
+      "intersectionName": "Rockaway Beach Boulevard & Unknown Street",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 28,
+      "peakQueue": 50,
+      "greenLightCycle": 50,
+      "redLightCycle": 67
+    }
+  },
+  {
+    "deviceId": "sensor-38",
+    "intersectionId": "int-10",
+    "location": {
+      "latitude": 40.5681794,
+      "longitude": -73.8668894,
+      "intersectionType": "medium",
+      "intersectionName": "Rockaway Beach Boulevard & Unknown Street",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 45,
+      "greenLightCycle": 45,
+      "redLightCycle": 60
+    }
+  },
+  {
+    "deviceId": "sensor-39",
+    "intersectionId": "int-10",
+    "location": {
+      "latitude": 40.5681794,
+      "longitude": -73.8668894,
+      "intersectionType": "medium",
+      "intersectionName": "Rockaway Beach Boulevard & Unknown Street",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 26,
+      "peakQueue": 47,
+      "greenLightCycle": 47,
+      "redLightCycle": 63
+    }
+  },
+  {
+    "deviceId": "sensor-40",
+    "intersectionId": "int-10",
+    "location": {
+      "latitude": 40.5681794,
+      "longitude": -73.8668894,
+      "intersectionType": "medium",
+      "intersectionName": "Rockaway Beach Boulevard & Unknown Street",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 37,
+      "greenLightCycle": 37,
+      "redLightCycle": 50
+    }
+  },
+  {
+    "deviceId": "sensor-41",
+    "intersectionId": "int-11",
+    "location": {
+      "latitude": 40.6301982,
+      "longitude": -74.10584,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 24,
+      "peakQueue": 42,
+      "greenLightCycle": 42,
+      "redLightCycle": 56
+    }
+  },
+  {
+    "deviceId": "sensor-42",
+    "intersectionId": "int-11",
+    "location": {
+      "latitude": 40.6301982,
+      "longitude": -74.10584,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 20,
+      "peakQueue": 36,
+      "greenLightCycle": 36,
+      "redLightCycle": 49
+    }
+  },
+  {
+    "deviceId": "sensor-43",
+    "intersectionId": "int-11",
+    "location": {
+      "latitude": 40.6301982,
+      "longitude": -74.10584,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 24,
+      "peakQueue": 44,
+      "greenLightCycle": 44,
+      "redLightCycle": 58
+    }
+  },
+  {
+    "deviceId": "sensor-44",
+    "intersectionId": "int-11",
+    "location": {
+      "latitude": 40.6301982,
+      "longitude": -74.10584,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 30,
+      "peakQueue": 54,
+      "greenLightCycle": 54,
+      "redLightCycle": 72
+    }
+  },
+  {
+    "deviceId": "sensor-45",
+    "intersectionId": "int-12",
+    "location": {
+      "latitude": 40.9287476,
+      "longitude": -74.0680322,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 49,
+      "greenLightCycle": 49,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-46",
+    "intersectionId": "int-12",
+    "location": {
+      "latitude": 40.9287476,
+      "longitude": -74.0680322,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 37,
+      "greenLightCycle": 37,
+      "redLightCycle": 50
+    }
+  },
+  {
+    "deviceId": "sensor-47",
+    "intersectionId": "int-12",
+    "location": {
+      "latitude": 40.9287476,
+      "longitude": -74.0680322,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 24,
+      "peakQueue": 42,
+      "greenLightCycle": 42,
+      "redLightCycle": 57
+    }
+  },
+  {
+    "deviceId": "sensor-48",
+    "intersectionId": "int-12",
+    "location": {
+      "latitude": 40.9287476,
+      "longitude": -74.0680322,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 40,
+      "greenLightCycle": 40,
+      "redLightCycle": 53
+    }
+  },
+  {
+    "deviceId": "sensor-49",
+    "intersectionId": "int-13",
+    "location": {
+      "latitude": 40.9948512,
+      "longitude": -74.1040912,
+      "intersectionType": "medium",
+      "intersectionName": "Race Track Road & Franklin Turnpike",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 48,
+      "greenLightCycle": 48,
+      "redLightCycle": 64
+    }
+  },
+  {
+    "deviceId": "sensor-50",
+    "intersectionId": "int-13",
+    "location": {
+      "latitude": 40.9948512,
+      "longitude": -74.1040912,
+      "intersectionType": "medium",
+      "intersectionName": "Race Track Road & Franklin Turnpike",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 48,
+      "greenLightCycle": 48,
+      "redLightCycle": 64
+    }
+  },
+  {
+    "deviceId": "sensor-51",
+    "intersectionId": "int-13",
+    "location": {
+      "latitude": 40.9948512,
+      "longitude": -74.1040912,
+      "intersectionType": "medium",
+      "intersectionName": "Race Track Road & Franklin Turnpike",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 23,
+      "peakQueue": 41,
+      "greenLightCycle": 41,
+      "redLightCycle": 54
+    }
+  },
+  {
+    "deviceId": "sensor-52",
+    "intersectionId": "int-13",
+    "location": {
+      "latitude": 40.9948512,
+      "longitude": -74.1040912,
+      "intersectionType": "medium",
+      "intersectionName": "Race Track Road & Franklin Turnpike",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 46,
+      "greenLightCycle": 46,
+      "redLightCycle": 61
+    }
+  },
+  {
+    "deviceId": "sensor-53",
+    "intersectionId": "int-14",
+    "location": {
+      "latitude": 40.8335569,
+      "longitude": -74.0902235,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 37,
+      "greenLightCycle": 37,
+      "redLightCycle": 49
+    }
+  },
+  {
+    "deviceId": "sensor-54",
+    "intersectionId": "int-14",
+    "location": {
+      "latitude": 40.8335569,
+      "longitude": -74.0902235,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 23,
+      "peakQueue": 42,
+      "greenLightCycle": 42,
+      "redLightCycle": 56
+    }
+  },
+  {
+    "deviceId": "sensor-55",
+    "intersectionId": "int-14",
+    "location": {
+      "latitude": 40.8335569,
+      "longitude": -74.0902235,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 30,
+      "peakQueue": 53,
+      "greenLightCycle": 53,
+      "redLightCycle": 71
+    }
+  },
+  {
+    "deviceId": "sensor-56",
+    "intersectionId": "int-14",
+    "location": {
+      "latitude": 40.8335569,
+      "longitude": -74.0902235,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 23,
+      "peakQueue": 42,
+      "greenLightCycle": 42,
+      "redLightCycle": 56
+    }
+  },
+  {
+    "deviceId": "sensor-57",
+    "intersectionId": "int-15",
+    "location": {
+      "latitude": 40.958085,
+      "longitude": -73.983911,
+      "intersectionType": "medium",
+      "intersectionName": "Schraalenburgh Road & Hardenburgh Avenue",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 49,
+      "greenLightCycle": 49,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-58",
+    "intersectionId": "int-15",
+    "location": {
+      "latitude": 40.958085,
+      "longitude": -73.983911,
+      "intersectionType": "medium",
+      "intersectionName": "Schraalenburgh Road & Hardenburgh Avenue",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 38,
+      "greenLightCycle": 38,
+      "redLightCycle": 50
+    }
+  },
+  {
+    "deviceId": "sensor-59",
+    "intersectionId": "int-15",
+    "location": {
+      "latitude": 40.958085,
+      "longitude": -73.983911,
+      "intersectionType": "medium",
+      "intersectionName": "Schraalenburgh Road & Hardenburgh Avenue",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 40,
+      "greenLightCycle": 40,
+      "redLightCycle": 54
+    }
+  },
+  {
+    "deviceId": "sensor-60",
+    "intersectionId": "int-15",
+    "location": {
+      "latitude": 40.958085,
+      "longitude": -73.983911,
+      "intersectionType": "medium",
+      "intersectionName": "Schraalenburgh Road & Hardenburgh Avenue",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 23,
+      "peakQueue": 42,
+      "greenLightCycle": 42,
+      "redLightCycle": 56
+    }
+  },
+  {
+    "deviceId": "sensor-61",
+    "intersectionId": "int-16",
+    "location": {
+      "latitude": 41.041582,
+      "longitude": -74.013274,
+      "intersectionType": "medium",
+      "intersectionName": "South Middletown Road & Blue Hill Road",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 29,
+      "peakQueue": 53,
+      "greenLightCycle": 53,
+      "redLightCycle": 70
+    }
+  },
+  {
+    "deviceId": "sensor-62",
+    "intersectionId": "int-16",
+    "location": {
+      "latitude": 41.041582,
+      "longitude": -74.013274,
+      "intersectionType": "medium",
+      "intersectionName": "South Middletown Road & Blue Hill Road",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 37,
+      "greenLightCycle": 37,
+      "redLightCycle": 50
+    }
+  },
+  {
+    "deviceId": "sensor-63",
+    "intersectionId": "int-16",
+    "location": {
+      "latitude": 41.041582,
+      "longitude": -74.013274,
+      "intersectionType": "medium",
+      "intersectionName": "South Middletown Road & Blue Hill Road",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 48,
+      "greenLightCycle": 48,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-64",
+    "intersectionId": "int-16",
+    "location": {
+      "latitude": 41.041582,
+      "longitude": -74.013274,
+      "intersectionType": "medium",
+      "intersectionName": "South Middletown Road & Blue Hill Road",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 20,
+      "peakQueue": 36,
+      "greenLightCycle": 36,
+      "redLightCycle": 48
+    }
+  },
+  {
+    "deviceId": "sensor-65",
+    "intersectionId": "int-17",
+    "location": {
+      "latitude": 40.7146597,
+      "longitude": -74.0926671,
+      "intersectionType": "major",
+      "intersectionName": "Culver Avenue & Mallory Avenue",
+      "direction": "NORTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 35,
+      "peakQueue": 61,
+      "greenLightCycle": 52,
+      "redLightCycle": 69
+    }
+  },
+  {
+    "deviceId": "sensor-66",
+    "intersectionId": "int-17",
+    "location": {
+      "latitude": 40.7146597,
+      "longitude": -74.0926671,
+      "intersectionType": "major",
+      "intersectionName": "Culver Avenue & Mallory Avenue",
+      "direction": "SOUTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 35,
+      "peakQueue": 61,
+      "greenLightCycle": 53,
+      "redLightCycle": 70
+    }
+  },
+  {
+    "deviceId": "sensor-67",
+    "intersectionId": "int-17",
+    "location": {
+      "latitude": 40.7146597,
+      "longitude": -74.0926671,
+      "intersectionType": "major",
+      "intersectionName": "Culver Avenue & Mallory Avenue",
+      "direction": "EAST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 41,
+      "peakQueue": 72,
+      "greenLightCycle": 62,
+      "redLightCycle": 83
+    }
+  },
+  {
+    "deviceId": "sensor-68",
+    "intersectionId": "int-17",
+    "location": {
+      "latitude": 40.7146597,
+      "longitude": -74.0926671,
+      "intersectionType": "major",
+      "intersectionName": "Culver Avenue & Mallory Avenue",
+      "direction": "WEST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 40,
+      "peakQueue": 71,
+      "greenLightCycle": 61,
+      "redLightCycle": 81
+    }
+  },
+  {
+    "deviceId": "sensor-69",
+    "intersectionId": "int-18",
+    "location": {
+      "latitude": 41.0144719,
+      "longitude": -73.8641874,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 38,
+      "greenLightCycle": 38,
+      "redLightCycle": 51
+    }
+  },
+  {
+    "deviceId": "sensor-70",
+    "intersectionId": "int-18",
+    "location": {
+      "latitude": 41.0144719,
+      "longitude": -73.8641874,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 22,
+      "peakQueue": 39,
+      "greenLightCycle": 39,
+      "redLightCycle": 52
+    }
+  },
+  {
+    "deviceId": "sensor-71",
+    "intersectionId": "int-18",
+    "location": {
+      "latitude": 41.0144719,
+      "longitude": -73.8641874,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 21,
+      "peakQueue": 38,
+      "greenLightCycle": 38,
+      "redLightCycle": 51
+    }
+  },
+  {
+    "deviceId": "sensor-72",
+    "intersectionId": "int-18",
+    "location": {
+      "latitude": 41.0144719,
+      "longitude": -73.8641874,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 26,
+      "peakQueue": 46,
+      "greenLightCycle": 46,
+      "redLightCycle": 62
+    }
+  },
+  {
+    "deviceId": "sensor-73",
+    "intersectionId": "int-19",
+    "location": {
+      "latitude": 40.8726258,
+      "longitude": -74.0138692,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "NORTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 48,
+      "greenLightCycle": 48,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-74",
+    "intersectionId": "int-19",
+    "location": {
+      "latitude": 40.8726258,
+      "longitude": -74.0138692,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "SOUTH",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 20,
+      "peakQueue": 36,
+      "greenLightCycle": 36,
+      "redLightCycle": 48
+    }
+  },
+  {
+    "deviceId": "sensor-75",
+    "intersectionId": "int-19",
+    "location": {
+      "latitude": 40.8726258,
+      "longitude": -74.0138692,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "EAST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 27,
+      "peakQueue": 49,
+      "greenLightCycle": 49,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-76",
+    "intersectionId": "int-19",
+    "location": {
+      "latitude": 40.8726258,
+      "longitude": -74.0138692,
+      "intersectionType": "medium",
+      "intersectionName": "Unknown Intersection",
+      "direction": "WEST",
+      "streetCount": 3
+    },
+    "characteristics": {
+      "averageQueue": 25,
+      "peakQueue": 44,
+      "greenLightCycle": 44,
+      "redLightCycle": 59
+    }
+  },
+  {
+    "deviceId": "sensor-77",
+    "intersectionId": "int-20",
+    "location": {
+      "latitude": 41.0584139,
+      "longitude": -74.0983287,
+      "intersectionType": "major",
+      "intersectionName": "Lake Street & West Saddle River Road",
+      "direction": "NORTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 35,
+      "peakQueue": 61,
+      "greenLightCycle": 52,
+      "redLightCycle": 69
+    }
+  },
+  {
+    "deviceId": "sensor-78",
+    "intersectionId": "int-20",
+    "location": {
+      "latitude": 41.0584139,
+      "longitude": -74.0983287,
+      "intersectionType": "major",
+      "intersectionName": "Lake Street & West Saddle River Road",
+      "direction": "SOUTH",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 37,
+      "peakQueue": 65,
+      "greenLightCycle": 55,
+      "redLightCycle": 74
+    }
+  },
+  {
+    "deviceId": "sensor-79",
+    "intersectionId": "int-20",
+    "location": {
+      "latitude": 41.0584139,
+      "longitude": -74.0983287,
+      "intersectionType": "major",
+      "intersectionName": "Lake Street & West Saddle River Road",
+      "direction": "EAST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 33,
+      "peakQueue": 57,
+      "greenLightCycle": 49,
+      "redLightCycle": 65
+    }
+  },
+  {
+    "deviceId": "sensor-80",
+    "intersectionId": "int-20",
+    "location": {
+      "latitude": 41.0584139,
+      "longitude": -74.0983287,
+      "intersectionType": "major",
+      "intersectionName": "Lake Street & West Saddle River Road",
+      "direction": "WEST",
+      "streetCount": 4
+    },
+    "characteristics": {
+      "averageQueue": 34,
+      "peakQueue": 59,
+      "greenLightCycle": 51,
+      "redLightCycle": 67
+    }
+  }
+]

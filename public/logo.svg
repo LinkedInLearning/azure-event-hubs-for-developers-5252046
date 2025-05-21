@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 16">
+  <!-- Main horizontal road -->
+  <rect x="0" y="4" width="40" height="8" className="fill-[#334155] dark:fill-[#334155]"/>
+  
+  <!-- Tiny vertical opening (short in height) -->
+  <rect x="16" y="2" width="8" height="12" className="fill-[#334155] dark:fill-[#334155]"/>
+  
+  <!-- Simple center line -->
+  <path d="M0 8 L40 8" stroke="white" strokeWidth="0.5" strokeDasharray="1,1"/>
+  
+  <!-- Traffic light -->
+  <rect x="13" y="3" width="2" height="4" fill="#475569"/>
+  <circle cx="14" cy="4" r="0.7" fill="#ef4444"/>
+  <circle cx="14" cy="6" r="0.7" fill="#22c55e"/>
+  
+  <!-- Cars (horizontal only) -->
+  <rect x="4" y="5.5" width="3" height="2" rx="0.5" fill="#ef4444"/>
+  <rect x="8" y="5.5" width="3" height="2" rx="0.5" fill="#ef4444"/>
+  <rect x="28" y="8.5" width="3" height="2" rx="0.5" fill="#22c55e"/>
+</svg>

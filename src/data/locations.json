@@ -1,0 +1,102 @@
+[
+  {
+    "id": "877bf603-e2a7-4ef7-b8f1-5c474ff869e6",
+    "name": "New York City",
+    "boundingBox": {
+      "minLat": 40.496,
+      "maxLat": 40.9155,
+      "minLng": -74.2557,
+      "maxLng": -73.7004
+    }
+  },
+  {
+    "id": "b0068505-c04d-4c8f-b37e-0ff2517f92fa",
+    "name": "Los Angeles",
+    "boundingBox": {
+      "minLat": 33.7037,
+      "maxLat": 34.3373,
+      "minLng": -118.6682,
+      "maxLng": -118.1553
+    }
+  },
+  {
+    "id": "6007353b-2e64-4020-855d-34a7a1a1a80a",
+    "name": "Chicago",
+    "boundingBox": {
+      "minLat": 41.6445,
+      "maxLat": 42.023,
+      "minLng": -87.9401,
+      "maxLng": -87.5237
+    }
+  },
+  {
+    "id": "be593ac7-ba9a-48b5-8077-1d8aa3ddcb8f",
+    "name": "Houston",
+    "boundingBox": {
+      "minLat": 29.5223,
+      "maxLat": 30.1107,
+      "minLng": -95.797,
+      "maxLng": -95.0146
+    }
+  },
+  {
+    "id": "68ae3a9f-fd74-49b7-bf34-87b568a4a225",
+    "name": "Phoenix",
+    "boundingBox": {
+      "minLat": 33.2903,
+      "maxLat": 33.7518,
+      "minLng": -112.324,
+      "maxLng": -111.925
+    }
+  },
+  {
+    "id": "25d2e30a-c384-4e26-9301-60ca525da8f2",
+    "name": "Philadelphia",
+    "boundingBox": {
+      "minLat": 39.867,
+      "maxLat": 40.1379,
+      "minLng": -75.2803,
+      "maxLng": -74.9558
+    }
+  },
+  {
+    "id": "0574ae04-6bae-40a4-aff0-c9ca1ff1c7e5",
+    "name": "San Antonio",
+    "boundingBox": {
+      "minLat": 29.1872,
+      "maxLat": 29.7343,
+      "minLng": -98.8095,
+      "maxLng": -98.2116
+    }
+  },
+  {
+    "id": "8c8770b1-46fe-408a-b30c-c40b474b050b",
+    "name": "San Diego",
+    "boundingBox": {
+      "minLat": 32.5343,
+      "maxLat": 33.1142,
+      "minLng": -117.2898,
+      "maxLng": -116.9065
+    }
+  },
+  {
+    "id": "54e4e519-76fc-4237-8ece-73f2cce1bb82",
+    "name": "Dallas",
+    "boundingBox": {
+      "minLat": 32.6207,
+      "maxLat": 33.0193,
+      "minLng": -97.0403,
+      "maxLng": -96.4637
+    }
+  },
+  {
+    "id": "b79a0bdd-b394-4abb-808b-6f77e250d918",
+    "name": "San Jose",
+    "boundingBox": {
+      "minLat": 37.1245,
+      "maxLat": 37.4697,
+      "minLng": -122.045,
+      "maxLng": -121.5446
+    }
+  }
+]
