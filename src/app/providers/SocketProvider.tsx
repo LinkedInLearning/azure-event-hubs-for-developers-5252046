@@ -35,7 +35,7 @@ export function SocketProvider({ children }: { children: React.ReactNode }) {
 
         // Sensor update handler
         const handleSensorUpdates = (statuses: SensorTraficStatus[]) => {
-            
+            console.log('sensor updates called',statuses)
             try {
                 updateSensorStatuses(statuses);
             } catch (err) {
