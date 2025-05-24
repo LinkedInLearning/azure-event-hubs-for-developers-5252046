@@ -2,7 +2,7 @@ import { HubConnectionBuilder, HubConnection, LogLevel, HubConnectionState } fro
 import { TrafficSensorReading } from '@/services/types';
 import { useSensorStore } from '@/stores/useSensorStore';
 function getSignalRNegotiateUrl(): string {
-    return 'https://trafficappcourse.azurewebsites.net/api';
+    return 'https://trafficappdemo.azurewebsites.net/api';
 }
 
 type EventCallback = (data: any) => void;

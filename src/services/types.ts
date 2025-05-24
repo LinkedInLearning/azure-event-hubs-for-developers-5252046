@@ -70,8 +70,8 @@ export interface GlobalWeatherConfig {
 export interface SensorTraficStatus {
   deviceId: string;
   timestamp: string;
-  averageClearenceRate:number,
-  lowestClerenceRate:number,
+  events: string;
+  avgClearanceRate:number,
   weather:LocalConditions
  
 }

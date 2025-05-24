@@ -16,10 +16,10 @@ export const createSensorStatusIcon = (
   if (!worstStatus) {
     IconComponent = MessageCircle;
     iconColor = "#9CA3AF"; // Gray
-  } else if (worstStatus.lowestClerenceRate < 70) {
+  } else if (worstStatus.avgClearanceRate < 70) {
     IconComponent = Angry;
     iconColor = "#EF4444"; // Red
-  } else if (worstStatus.lowestClerenceRate < 90) {
+  } else if (worstStatus.avgClearanceRate < 90) {
     IconComponent = Annoyed;
     iconColor = "#F59E0B"; // Yellow
   } else {

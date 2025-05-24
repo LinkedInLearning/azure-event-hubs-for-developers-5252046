@@ -35,8 +35,8 @@ export default function SensorTable() {
         status: latestStatuses.get(sensor.deviceId)
       }))
       .sort((a, b) => {
-        const aRate = a.status?.lowestClerenceRate ?? Infinity;
-        const bRate = b.status?.lowestClerenceRate ?? Infinity;
+        const aRate = a.status?.avgClearanceRate ?? Infinity;
+        const bRate = b.status?.avgClearanceRate ?? Infinity;
         return aRate - bRate;
       });
   }, [sensors, latestStatuses]);
@@ -67,7 +67,6 @@ export default function SensorTable() {
               <th className="px-4 py-2 text-left text-gray-300">Device ID</th>
               <th className="px-4 py-2 text-left text-gray-300">Intersection</th>
               <th className="px-4 py-2 text-left text-gray-300">Average Clearance</th>
-              <th className="px-4 py-2 text-left text-gray-300">Lowest Clearance</th>
             </tr>
           </thead>
           <AnimatePresence>
@@ -98,23 +97,14 @@ export default function SensorTable() {
                   <td className="px-4 py-2">
                     {status ? (
                       <motion.span 
-                        className={getClearanceRateColor(status.averageClearenceRate)}
+                        className={getClearanceRateColor(status.avgClearanceRate)}
                         animate={{ scale: [1, 1.1, 1] }}
                       >
-                        {status.averageClearenceRate.toFixed(1)}%
+                        {status.avgClearanceRate.toFixed(1)}%
                       </motion.span>
                     ) : '-'}
                   </td>
-                  <td className="px-4 py-2">
-                    {status ? (
-                      <motion.span 
-                        className={getClearanceRateColor(status.lowestClerenceRate)}
-                        animate={{ scale: [1, 1.1, 1] }}
-                      >
-                        {status.lowestClerenceRate.toFixed(1)}%
-                      </motion.span>
-                    ) : '-'}
-                  </td>
+                 
                 </motion.tr>
               ))}
             </motion.tbody>

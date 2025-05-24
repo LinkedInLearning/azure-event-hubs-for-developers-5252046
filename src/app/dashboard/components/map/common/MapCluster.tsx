@@ -35,7 +35,7 @@ export function useMapClusters(
 
         // Update cluster's worst status
         if (sensorStatus && (!cluster.worstStatus || 
-            sensorStatus.lowestClerenceRate < cluster.worstStatus.lowestClerenceRate)) {
+            sensorStatus.avgClearanceRate < cluster.worstStatus.avgClearanceRate)) {
           cluster.worstStatus = sensorStatus;
         }
       }

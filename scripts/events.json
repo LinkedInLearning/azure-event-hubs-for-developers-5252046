@@ -1,0 +1,322 @@
+[
+  {
+    "deviceId": "sensor-1",
+    "eventString": "accident:Multi-car collision blocking left turn lane"
+  },
+  {
+    "deviceId": "sensor-2",
+    "eventString": "construction:Sidewalk repair affecting pedestrian crossing timing"
+  },
+  {
+    "deviceId": "sensor-3",
+    "eventString": "incident:Delivery truck double-parked - minor traffic backup"
+  },
+  {
+    "deviceId": "sensor-4",
+    "eventString": "maintenance:Street cleaning operation - temporary lane restriction"
+  },
+  {
+    "deviceId": "sensor-5",
+    "eventString": "construction:Lane closure for water main repair - expect delays"
+  },
+  {
+    "deviceId": "sensor-6",
+    "eventString": "weather:Wind advisory affecting high-profile vehicles"
+  },
+  {
+    "deviceId": "sensor-7",
+    "eventString": "incident:Traffic signal malfunction - manual control implemented"
+  },
+  {
+    "deviceId": "sensor-8",
+    "eventString": "construction:Gas line maintenance - reduced lane capacity"
+  },
+  {
+    "deviceId": "sensor-9",
+    "eventString": "weather:Heavy rain reducing visibility and slowing traffic"
+  },
+  {
+    "deviceId": "sensor-10",
+    "eventString": "incident:Street vendor setup causing pedestrian overflow"
+  },
+  {
+    "deviceId": "sensor-11",
+    "eventString": "maintenance:Pavement patching during off-peak hours"
+  },
+  {
+    "deviceId": "sensor-12",
+    "eventString": "incident:Disabled vehicle in right lane - tow truck en route"
+  },
+  {
+    "deviceId": "sensor-13",
+    "eventString": "construction:Sewer line replacement - single lane operation"
+  },
+  {
+    "deviceId": "sensor-14",
+    "eventString": "weather:Morning fog reducing visibility conditions"
+  },
+  {
+    "deviceId": "sensor-15",
+    "eventString": "incident:Minor fender bender - vehicles moving to shoulder"
+  },
+  {
+    "deviceId": "sensor-16",
+    "eventString": "maintenance:Traffic signal upgrade - temporary timing changes"
+  },
+  {
+    "deviceId": "sensor-17",
+    "eventString": "construction:Underground cable installation - lane shifts active"
+  },
+  {
+    "deviceId": "sensor-18",
+    "eventString": "incident:Emergency vehicle response - temporary lane closure"
+  },
+  {
+    "deviceId": "sensor-19",
+    "eventString": "weather:Ice warning - reduced speed advisory in effect"
+  },
+  {
+    "deviceId": "sensor-20",
+    "eventString": "construction:Bridge inspection - intermittent traffic holds"
+  },
+  {
+    "deviceId": "sensor-21",
+    "eventString": "construction:Utility work on Shore Boulevard - one lane closed"
+  },
+  {
+    "deviceId": "sensor-22",
+    "eventString": "incident:Large vehicle breakdown - recovery operation underway"
+  },
+  {
+    "deviceId": "sensor-23",
+    "eventString": "weather:Strong crosswinds affecting vehicle stability"
+  },
+  {
+    "deviceId": "sensor-24",
+    "eventString": "maintenance:Intersection cleaning - brief signal timing adjustment"
+  },
+  {
+    "deviceId": "sensor-25",
+    "eventString": "maintenance:Traffic light servicing during off-peak hours"
+  },
+  {
+    "deviceId": "sensor-26",
+    "eventString": "construction:Roadway milling operation - noise and dust advisory"
+  },
+  {
+    "deviceId": "sensor-27",
+    "eventString": "incident:Police investigation - temporary traffic redirection"
+  },
+  {
+    "deviceId": "sensor-28",
+    "eventString": "weather:Sun glare advisory during evening commute hours"
+  },
+  {
+    "deviceId": "sensor-29",
+    "eventString": "construction:Curb and gutter repair - parking restrictions active"
+  },
+  {
+    "deviceId": "sensor-30",
+    "eventString": "accident:Fender bender cleared - residual congestion possible"
+  },
+  {
+    "deviceId": "sensor-31",
+    "eventString": "maintenance:Street sign installation - brief lane occupation"
+  },
+  {
+    "deviceId": "sensor-32",
+    "eventString": "incident:Oversize load transport - escort vehicle convoy"
+  },
+  {
+    "deviceId": "sensor-33",
+    "eventString": "weather:Light snow accumulation - reduced traction conditions"
+  },
+  {
+    "deviceId": "sensor-34",
+    "eventString": "construction:Sidewalk reconstruction - pedestrian detour in place"
+  },
+  {
+    "deviceId": "sensor-35",
+    "eventString": "incident:Traffic signal stuck on red - technician dispatched"
+  },
+  {
+    "deviceId": "sensor-36",
+    "eventString": "maintenance:Pothole repair crew - temporary lane restriction"
+  },
+  {
+    "deviceId": "sensor-37",
+    "eventString": "weather:Fog advisory affecting Rockaway Beach area"
+  },
+  {
+    "deviceId": "sensor-38",
+    "eventString": "construction:Storm drain maintenance - periodic lane closures"
+  },
+  {
+    "deviceId": "sensor-39",
+    "eventString": "incident:Vehicle fire extinguished - debris cleanup in progress"
+  },
+  {
+    "deviceId": "sensor-40",
+    "eventString": "weather:High tide flooding - water on roadway"
+  },
+  {
+    "deviceId": "sensor-41",
+    "eventString": "construction:Electrical work - traffic signal timing modified"
+  },
+  {
+    "deviceId": "sensor-42",
+    "eventString": "incident:Abandoned vehicle removal - tow operation scheduled"
+  },
+  {
+    "deviceId": "sensor-43",
+    "eventString": "maintenance:Crosswalk painting - temporary pedestrian rerouting"
+  },
+  {
+    "deviceId": "sensor-44",
+    "eventString": "weather:Flash flood warning - avoid low-lying areas"
+  },
+  {
+    "deviceId": "sensor-45",
+    "eventString": "incident:Police activity - temporary traffic control in effect"
+  },
+  {
+    "deviceId": "sensor-46",
+    "eventString": "construction:Tree removal operation - crane activity present"
+  },
+  {
+    "deviceId": "sensor-47",
+    "eventString": "weather:Dense fog - reduced visibility below 100 feet"
+  },
+  {
+    "deviceId": "sensor-48",
+    "eventString": "incident:Fuel spill cleanup - hazmat team on scene"
+  },
+  {
+    "deviceId": "sensor-49",
+    "eventString": "construction:Race Track Road repaving - alternate route suggested"
+  },
+  {
+    "deviceId": "sensor-50",
+    "eventString": "maintenance:Traffic counting equipment installation"
+  },
+  {
+    "deviceId": "sensor-51",
+    "eventString": "incident:Animal on roadway - wildlife control contacted"
+  },
+  {
+    "deviceId": "sensor-52",
+    "eventString": "weather:Black ice formation - extreme caution advised"
+  },
+  {
+    "deviceId": "sensor-53",
+    "eventString": "construction:Manhole cover replacement - temporary traffic pattern"
+  },
+  {
+    "deviceId": "sensor-54",
+    "eventString": "incident:Multi-vehicle accident - emergency responders on scene"
+  },
+  {
+    "deviceId": "sensor-55",
+    "eventString": "weather:Thunderstorm warning - seek shelter if outdoors"
+  },
+  {
+    "deviceId": "sensor-56",
+    "eventString": "maintenance:Street light bulb replacement - cherry picker present"
+  },
+  {
+    "deviceId": "sensor-57",
+    "eventString": "construction:Driveway installation - intermittent lane blockage"
+  },
+  {
+    "deviceId": "sensor-58",
+    "eventString": "incident:Medical emergency - ambulance blocking travel lane"
+  },
+  {
+    "deviceId": "sensor-59",
+    "eventString": "weather:Hail damage assessment - debris on roadway"
+  },
+  {
+    "deviceId": "sensor-60",
+    "eventString": "construction:Fire hydrant maintenance - water pressure testing"
+  },
+  {
+    "deviceId": "sensor-61",
+    "eventString": "incident:Bicycle accident - first aid being administered"
+  },
+  {
+    "deviceId": "sensor-62",
+    "eventString": "maintenance:Road salt application - slow-moving spreader truck"
+  },
+  {
+    "deviceId": "sensor-63",
+    "eventString": "weather:Tornado watch issued - monitor weather conditions"
+  },
+  {
+    "deviceId": "sensor-64",
+    "eventString": "construction:Drainage pipe installation - excavation in progress"
+  },
+  {
+    "deviceId": "sensor-65",
+    "eventString": "construction:Road resurfacing on Culver Avenue - reduced capacity"
+  },
+  {
+    "deviceId": "sensor-66",
+    "eventString": "incident:Power line down - utility crew establishing safety zone"
+  },
+  {
+    "deviceId": "sensor-67",
+    "eventString": "weather:Hurricane evacuation route - increased traffic volume"
+  },
+  {
+    "deviceId": "sensor-68",
+    "eventString": "maintenance:Guardrail inspection - work vehicle in shoulder"
+  },
+  {
+    "deviceId": "sensor-69",
+    "eventString": "construction:Fiber optic cable burial - trenching operation active"
+  },
+  {
+    "deviceId": "sensor-70",
+    "eventString": "incident:Chemical spill contained - decontamination in progress"
+  },
+  {
+    "deviceId": "sensor-71",
+    "eventString": "weather:Severe thunderstorm - heavy rain and lightning"
+  },
+  {
+    "deviceId": "sensor-72",
+    "eventString": "maintenance:Traffic camera adjustment - brief signal interruption"
+  },
+  {
+    "deviceId": "sensor-73",
+    "eventString": "construction:Retaining wall repair - single lane alternating traffic"
+  },
+  {
+    "deviceId": "sensor-74",
+    "eventString": "incident:Pedestrian accident - intersection temporarily closed"
+  },
+  {
+    "deviceId": "sensor-75",
+    "eventString": "weather:Drought conditions - dust advisory for visibility"
+  },
+  {
+    "deviceId": "sensor-76",
+    "eventString": "maintenance:Pavement marking renewal - lane position changes"
+  },
+  {
+    "deviceId": "sensor-77",
+    "eventString": "maintenance:Signal timing optimization in progress"
+  },
+  {
+    "deviceId": "sensor-78",
+    "eventString": "construction:Culvert replacement - temporary road closure"
+  },
+  {
+    "deviceId": "sensor-79",
+    "eventString": "incident:Hazardous material transport - escort required"
+  },
+  {
+    "deviceId": "sensor-80",
+    "eventString": "weather:Extreme heat advisory - pavement buckling possible"
+  }
+]
