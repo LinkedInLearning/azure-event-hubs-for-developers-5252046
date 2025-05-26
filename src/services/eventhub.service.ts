@@ -8,7 +8,7 @@ class EventHubService {
     private batchMap: Map<string, EventDataBatch> = new Map();
     private sendInterval: NodeJS.Timeout | null = null;
     private readonly SEND_INTERVAL_MS = 5000; // Send batches every 5 seconds
-    private readonly CONNECTION_STRING = "Endpoint=sb://trafficapp.servicebus.windows.net/;SharedAccessKeyName=sensordevices;SharedAccessKey=g6FC/bJzNqvxSSEpwSx9P9XcVel2AiItw+AEhNjauY4=;EntityPath=traffic-hub";
+    private readonly CONNECTION_STRING = "Endpoint=sb://your-eventhub-namespace-here.servicebus.windows.net/;SharedAccessKeyName=your-policy-name-here;SharedAccessKey=your-shared-access-key-here=;EntityPath=your-event-hub-name-here";
     private readonly EVENT_HUB_NAME = "traffic-hub";
     
      private onBatchSentCallback: ((batchSize: number, partitionKey: string) => void) | null = null;

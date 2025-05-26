@@ -2,7 +2,7 @@ import { HubConnectionBuilder, HubConnection, LogLevel, HubConnectionState } fro
 import { TrafficSensorReading } from '@/services/types';
 import { useSensorStore } from '@/stores/useSensorStore';
 function getSignalRNegotiateUrl(): string {
-    return 'https://trafficappdemo.azurewebsites.net/api';
+    return 'https://your-signalr-endpoint-here.azurewebsites.net/api';
 }
 
 type EventCallback = (data: any) => void;
@@ -13,7 +13,9 @@ export class SocketService {
     private eventCallbacks: Map<string, EventCallback[]> = new Map();
 
     private constructor() {
-        this.connect();
+        this.connect().catch(error => {
+            console.error('Unhandled connection error:', error);
+        });
     }
 
     public static getInstance(): SocketService {
@@ -27,9 +29,7 @@ export class SocketService {
         // Update status to connecting
         useSensorStore.getState().updateSignalRStatus('connecting', 'Establishing connection...');
         
-        try {
-            // Create the connection using the specific negotiate endpoint
-            this.connection = new HubConnectionBuilder()
+         this.connection = new HubConnectionBuilder()
                 .withUrl(getSignalRNegotiateUrl())
                 .withAutomaticReconnect([0, 1000, 5000, 10000])
                 .configureLogging(LogLevel.Information)
@@ -56,21 +56,23 @@ export class SocketService {
             });
 
             // Start the connection
-            await this.connection.start();
-            console.log('Connected to WebSocket server');
-            useSensorStore.getState().updateSignalRStatus('connected', 'Connected to real-time updates');
+            this.connection.start().then(()=>{
+                console.log('Connected to WebSocket server');
+                useSensorStore.getState().updateSignalRStatus('connected', 'Connected to real-time updates');
+                
+                // Register event handlers
+                this.registerEventHandlers();
+            }).catch(error=>{
+                console.error('Error connecting to WebSocket server:', error);
+                useSensorStore.getState().updateSignalRStatus('disconnected', 
+                    `Connection failed: ${error.message || 'Unknown error'}`);
+                
+                // Retry connection after delay
+                setTimeout(() => this.connect(), 5000);
+            });
+           
             
-            // Register event handlers
-            this.registerEventHandlers();
-            
-        } catch (error: any) {
-            console.error('Error connecting to WebSocket server:', error);
-            useSensorStore.getState().updateSignalRStatus('disconnected', 
-                `Connection failed: ${error.message || 'Unknown error'}`);
-            
-            // Retry connection after delay
-            setTimeout(() => this.connect(), 5000);
-        }
+        
     }
 
     private registerEventHandlers() {
@@ -125,7 +127,9 @@ export class SocketService {
     this.eventCallbacks.clear();
     
     // Start a new connection
-    this.connect();
+    this.connect().catch(error => {
+        console.error('Unhandled connection error:', error);
+    });
 }
 
     public async disconnect() {
