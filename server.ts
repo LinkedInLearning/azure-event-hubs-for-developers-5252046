@@ -2,7 +2,16 @@ import { createServer } from 'http';
 import { parse } from 'url';
 import next from 'next';
 const dev = process.env.NODE_ENV !== 'production';
-const app = next({ dev });
+const app = next({ 
+  dev,
+  // Add this to disable error overlay
+  conf: {
+    devIndicators: {
+      buildActivity: false,
+      appIsrStatus: false,
+    }
+  }
+});
 const handle = app.getRequestHandler();
 
 app.prepare().then(() => {
